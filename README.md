@@ -17,7 +17,7 @@ dependencies {
     compile 'com.langyuye.library:dialog:1.0.1'
 }
 ```
-####　新增方法
+#### 新增方法
 ```Java
 dialog.setAtLocation(x,y) //设置坐标
 //变更
