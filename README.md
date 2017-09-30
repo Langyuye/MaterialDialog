@@ -7,14 +7,22 @@ allprojects {
     repositories {
         jcenter()
         maven{
-            url "https://raw.githubusercontent.com/Langyuye/MaterialDialog/master"
+            url "https://raw.githubusercontent.com/Langyuye/MavenRepository/master"
         }
     }
 }
 ```
 ```Java
 dependencies {
-    compile 'com.langyuye.library:dialog:1.0.0'
+    compile 'com.langyuye.library:dialog:1.0.1'
+}
+```
+####　新增方法
+```Java
+dialog.setAtLocation(x,y) //设置坐标
+//变更
+dialog.setDialogSize(size)  //设置窗体宽度范围０－１，屏幕宽度*size
+dialog.setDialogWidth(width)　//宽度
 }
 ```
 #### 构造方法
@@ -63,7 +71,6 @@ dialog.setView(view);
 dialog.setBackground(drawable)  //通过drawable设置窗体背景
 dialog.setBackgroundColor(color) //通过color设置窗体背景
 dialog.setBackgroundResource(resId) //通过资源文件设置窗体背景
-dialog.setDialogWidth(size)  //设置窗体宽度范围０－１，屏幕宽度*size
 dialog.setOnDismissListener(new OnDismissListener);  //监听窗口取消
 dialog.setCanceledOnTouchSide(boolean) //弹窗不可取消
 dialog.setColorAccent(color)  //设置通用的颜色，比如按钮颜色，单选复选按钮颜色
