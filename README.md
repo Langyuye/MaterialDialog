@@ -22,7 +22,7 @@ dependencies {
 dialog.setAtLocation(x,y) //设置坐标
 //变更
 dialog.setDialogSize(size)  //设置窗体宽度范围０－１，屏幕宽度*size
-dialog.setDialogWidth(width)　//宽度
+dialog.setDialogWidth(width)　//设置宽度
 }
 ```
 #### 构造方法
