@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DialogLayout">
+        <attr name="HeightRatio" format="reference|float" />
+        <attr name="HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="ripple_view">
+        <attr name="pressed_color" format="reference|color" />
+        <attr name="ripple_color" format="reference|color" />
+    </declare-styleable>
+    <!-- RadioButton Attribute -->
+    <declare-styleable name="RadioButton">
+        <attr name="radio_color" format="color"/>
+        <attr name="radio_checked_color" format="color"/>
+    </declare-styleable>
+    <dimen name="radio_width">45dp</dimen>
+    <dimen name="radio_height">45dp</dimen>
+    <dimen name="radio_border_radius">8dp</dimen>
+    <dimen name="radio_thumb_radius">4dp</dimen>
+    <dimen name="radio_ripple_radius">22.5dp</dimen>
+    <dimen name="radio_stroke_width">2dp</dimen>
+    <color name="radio_color">#6d6d6d</color>
+    <color name="radio_checked_color">#55b03d</color>
+</resources>

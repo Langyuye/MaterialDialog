@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <com.langyuye.library.dialog.view.RippleTextView
+        android:id="@+id/single_click_item_text"
+        android:layout_width="fill_parent" 
+        android:layout_height="45dp"
+        android:gravity="center_vertical|start"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:background="@null"
+        />
+</LinearLayout>
